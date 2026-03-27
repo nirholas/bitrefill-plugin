@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Bitrefill API",
+    "description": "透過 OpenAPI 規範直接訪問 Bitrefill API v2。完整的端點覆蓋：產品、發票、訂單、eSIM、存款、佣金。",
+    "tags": [
+      "bitrefill",
+      "api",
+      "openapi",
+      "禮品卡",
+      "esims"
+    ]
+  }
+}

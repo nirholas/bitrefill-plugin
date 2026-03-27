@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Bitrefill API",
+    "description": "OpenAPI仕様を介した直接的なBitrefill API v2アクセス。完全なエンドポイントカバレッジ：製品、請求書、注文、eSIM、入金、手数料。",
+    "tags": [
+      "ビットリフィル",
+      "API",
+      "オープンAPI",
+      "ギフトカード",
+      "eSIM"
+    ]
+  }
+}

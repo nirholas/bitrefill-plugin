@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "API Bitrefill",
+    "description": "Truy cập trực tiếp API Bitrefill v2 qua đặc tả OpenAPI. Bao phủ đầy đủ các điểm cuối: sản phẩm, hóa đơn, đơn hàng, eSIM, tiền gửi, hoa hồng.",
+    "tags": [
+      "bitrefill",
+      "api",
+      "openapi",
+      "thẻ-quà-tặng",
+      "esims"
+    ]
+  }
+}

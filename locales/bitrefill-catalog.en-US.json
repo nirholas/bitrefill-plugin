@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "title": "Bitrefill Catalog",
+    "description": "Browse Bitrefill product catalogs and order history as formatted markdown reports. Gift card listings, order summaries, and redemption receipts.",
+    "tags": ["gift-cards", "catalog", "reports", "orders", "bitrefill"]
+  },
+  "api": {
+    "getProductCatalog": { "name": "getProductCatalog", "description": "Get a formatted markdown table of available products" },
+    "getOrderHistoryReport": { "name": "getOrderHistoryReport", "description": "Get a formatted markdown report of recent orders" },
+    "getOrderReceipt": { "name": "getOrderReceipt", "description": "Get a formatted markdown receipt including redemption codes" }
+  }
+}

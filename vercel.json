@@ -1,0 +1,26 @@
+{
+  "rewrites": [
+    { "source": "/sperax-bitrefill/manifest.json", "destination": "/api/sperax-bitrefill/manifest" },
+    { "source": "/bitrefill-catalog/manifest.json", "destination": "/api/bitrefill-catalog/manifest" },
+    { "source": "/bitrefill-store/manifest.json", "destination": "/api/bitrefill-store/manifest" },
+    { "source": "/bitrefill-openapi/manifest.json", "destination": "/api/bitrefill-openapi/manifest" },
+    { "source": "/api/bitrefill-openapi/spec", "destination": "/api/bitrefill-openapi/spec" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
+      ]
+    },
+    {
+      "source": "/(.*)/manifest.json",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=300" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "Bitrefill",
+    "description": "Purchase gift cards, eSIMs, and mobile top-ups from 170+ countries. Search products, create invoices, pay with crypto, and retrieve redemption codes.",
+    "tags": ["gift-cards", "esims", "top-ups", "crypto-shopping", "bitcoin", "bitrefill"]
+  },
+  "api": {
+    "searchProducts": { "name": "searchProducts", "description": "Search the Bitrefill product catalog for gift cards, eSIMs, and mobile top-ups" },
+    "getProductDetails": { "name": "getProductDetails", "description": "Get denomination options and full details for a specific product" },
+    "getAccountBalance": { "name": "getAccountBalance", "description": "Get current account balance" },
+    "createInvoice": { "name": "createInvoice", "description": "Create an invoice to purchase products. Supports auto-pay or crypto payment." },
+    "getInvoice": { "name": "getInvoice", "description": "Get invoice status and payment details" },
+    "getOrder": { "name": "getOrder", "description": "Get order details including redemption codes" },
+    "listOrders": { "name": "listOrders", "description": "List recent orders with optional date filtering" },
+    "checkPhoneNumber": { "name": "checkPhoneNumber", "description": "Validate phone number and find compatible top-up operators" },
+    "purchaseESIM": { "name": "purchaseESIM", "description": "Purchase a new eSIM or top-up an existing one" },
+    "createDeposit": { "name": "createDeposit", "description": "Create a crypto deposit to fund account balance (Business API only)" }
+  }
+}

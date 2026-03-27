@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Bitrefill API",
+    "description": "Bitrefill API v2'ye OpenAPI spesifikasyonu aracılığıyla doğrudan erişim. Tam uç nokta kapsama alanı: ürünler, faturalar, siparişler, eSIM'ler, yatırımlar, komisyonlar.",
+    "tags": [
+      "bitrefill",
+      "api",
+      "openapi",
+      "hediye-kartları",
+      "esim'ler"
+    ]
+  }
+}

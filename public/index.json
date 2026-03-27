@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "author": "nirholas",
+      "createdAt": "2026-03-26",
+      "homepage": "https://github.com/nirholas/plugin.delivery",
+      "identifier": "bitrefill-catalog",
+      "manifest": "https://plugin.delivery/bitrefill-catalog/manifest.json",
+      "meta": {
+        "avatar": "📋",
+        "description": "Browse Bitrefill product catalogs and order history as formatted markdown reports. Gift card listings, order summaries, and redemption receipts.",
+        "tags": [
+          "gift-cards",
+          "catalog",
+          "reports",
+          "orders",
+          "bitrefill"
+        ],
+        "title": "Bitrefill Catalog",
+        "category": "stocks-finance"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "nirholas",
+      "createdAt": "2026-03-26",
+      "homepage": "https://github.com/nirholas/plugin.delivery",
+      "identifier": "bitrefill-openapi",
+      "manifest": "https://plugin.delivery/bitrefill-openapi/manifest.json",
+      "meta": {
+        "avatar": "📡",
+        "description": "Direct Bitrefill API v2 access via OpenAPI spec. Full endpoint coverage: products, invoices, orders, eSIMs, deposits, and account management.",
+        "tags": [
+          "bitrefill",
+          "api",
+          "openapi",
+          "gift-cards",
+          "esims"
+        ],
+        "title": "Bitrefill API",
+        "category": "stocks-finance"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "nirholas",
+      "createdAt": "2026-03-26",
+      "homepage": "https://github.com/nirholas/plugin.delivery",
+      "identifier": "bitrefill-store",
+      "manifest": "https://plugin.delivery/bitrefill-store/manifest.json",
+      "meta": {
+        "avatar": "🛒",
+        "description": "Interactive Bitrefill storefront — search products, select denominations, checkout with crypto, and track orders in a full-screen shopping interface.",
+        "tags": [
+          "gift-cards",
+          "shopping",
+          "interactive",
+          "crypto-payments",
+          "bitrefill"
+        ],
+        "title": "Bitrefill Store",
+        "category": "stocks-finance"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "nirholas",
+      "createdAt": "2026-03-26",
+      "homepage": "https://github.com/nirholas/plugin.delivery",
+      "identifier": "sperax-bitrefill",
+      "manifest": "https://plugin.delivery/sperax-bitrefill/manifest.json",
+      "meta": {
+        "avatar": "🎁",
+        "description": "Purchase gift cards, eSIMs, and mobile top-ups from 170+ countries. Search products, create invoices, pay with crypto, and retrieve redemption codes.",
+        "tags": [
+          "gift-cards",
+          "esims",
+          "top-ups",
+          "crypto-shopping",
+          "bitcoin",
+          "bitrefill"
+        ],
+        "title": "Bitrefill",
+        "category": "stocks-finance"
+      },
+      "schemaVersion": 1
+    }
+  ]
+}

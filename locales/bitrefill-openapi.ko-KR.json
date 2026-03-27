@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "비트리필 API",
+    "description": "OpenAPI 사양을 통한 비트리필 API v2 직접 액세스. 전체 엔드포인트 커버리지: 제품, 송장, 주문, eSIM, 예치금, 수수료.",
+    "tags": [
+      "비트리필",
+      "api",
+      "openapi",
+      "상품권",
+      "esims"
+    ]
+  }
+}

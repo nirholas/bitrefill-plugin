@@ -1,0 +1,28 @@
+{
+  "name": "bitrefill-plugin",
+  "version": "1.0.0",
+  "description": "Bitrefill plugins for SperaxOS — Default, Markdown, Standalone, and OpenAPI types",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "bun scripts/build.ts",
+    "format": "prettier --write \"src/**/*.json\" \"locales/**/*.json\" \"api/**/*.json\"",
+    "lint": "tsc --noEmit",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "bitrefill",
+    "gift-cards",
+    "esims",
+    "crypto-shopping",
+    "sperax",
+    "plugin"
+  ],
+  "author": "nirholas",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/node": "^3.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}

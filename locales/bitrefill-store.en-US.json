@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "title": "Bitrefill Store",
+    "description": "Interactive Bitrefill storefront — search products, select denominations, checkout with crypto, and track orders.",
+    "tags": ["gift-cards", "shopping", "interactive", "crypto-payments", "bitrefill"]
+  },
+  "api": {
+    "openStore": { "name": "openStore", "description": "Open the interactive Bitrefill storefront" }
+  }
+}

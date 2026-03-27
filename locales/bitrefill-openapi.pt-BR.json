@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "API Bitrefill",
+    "description": "Acesso direto à API Bitrefill v2 via especificação OpenAPI. Cobertura completa de endpoints: produtos, faturas, pedidos, eSIMs, depósitos, comissões.",
+    "tags": [
+      "bitrefill",
+      "api",
+      "openapi",
+      "cartões-presente",
+      "esims"
+    ]
+  }
+}

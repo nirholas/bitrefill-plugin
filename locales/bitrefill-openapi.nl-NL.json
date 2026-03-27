@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Bitrefill API",
+    "description": "Directe toegang tot de Bitrefill API v2 via OpenAPI-specificatie. Volledige dekking van eindpunten: producten, facturen, bestellingen, eSIMs, stortingen, commissies.",
+    "tags": [
+      "bitrefill",
+      "api",
+      "openapi",
+      "cadeaubonnen",
+      "esims"
+    ]
+  }
+}

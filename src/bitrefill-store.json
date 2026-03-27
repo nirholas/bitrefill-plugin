@@ -1,0 +1,22 @@
+{
+  "author": "nirholas",
+  "createdAt": "2026-03-26",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "bitrefill-store",
+  "manifest": "https://plugin.delivery/bitrefill-store/manifest.json",
+
+  "meta": {
+    "avatar": "🛒",
+    "description": "Interactive Bitrefill storefront — search products, select denominations, checkout with crypto, and track orders in a full-screen shopping interface.",
+    "tags": [
+      "gift-cards",
+      "shopping",
+      "interactive",
+      "crypto-payments",
+      "bitrefill"
+    ],
+    "title": "Bitrefill Store",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

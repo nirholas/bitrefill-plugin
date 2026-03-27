@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Bitrefill API",
+    "description": "Директен достъп до Bitrefill API v2 чрез OpenAPI спецификация. Пълно покритие на крайни точки: продукти, фактури, поръчки, eSIM карти, депозити, комисионни.",
+    "tags": [
+      "bitrefill",
+      "api",
+      "openapi",
+      "подаръчни-карти",
+      "esims"
+    ]
+  }
+}

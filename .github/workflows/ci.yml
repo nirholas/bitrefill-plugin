@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main, preview]
+  pull_request:
+    branches: [main]
+
+jobs:
+  typecheck:
+    name: Type Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Type check
+        run: bun run lint
+
+  build:
+    name: Build Registry
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Build public/index.json
+        run: bun run build
+
+      - name: Verify output
+        run: |
+          if [ ! -f public/index.json ]; then
+            echo "public/index.json was not generated"
+            exit 1
+          fi
+          echo "public/index.json contents:"
+          cat public/index.json

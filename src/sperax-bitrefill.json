@@ -1,0 +1,22 @@
+{
+  "author": "nirholas",
+  "createdAt": "2026-03-26",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "sperax-bitrefill",
+  "manifest": "https://plugin.delivery/sperax-bitrefill/manifest.json",
+  "meta": {
+    "avatar": "🎁",
+    "description": "Purchase gift cards, eSIMs, and mobile top-ups from 170+ countries. Search products, create invoices, pay with crypto, and retrieve redemption codes.",
+    "tags": [
+      "gift-cards",
+      "esims",
+      "top-ups",
+      "crypto-shopping",
+      "bitcoin",
+      "bitrefill"
+    ],
+    "title": "Bitrefill",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,21 @@
+{
+  "author": "nirholas",
+  "createdAt": "2026-03-26",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "bitrefill-openapi",
+  "manifest": "https://plugin.delivery/bitrefill-openapi/manifest.json",
+  "meta": {
+    "avatar": "📡",
+    "description": "Direct Bitrefill API v2 access via OpenAPI spec. Full endpoint coverage: products, invoices, orders, eSIMs, deposits, and account management.",
+    "tags": [
+      "bitrefill",
+      "api",
+      "openapi",
+      "gift-cards",
+      "esims"
+    ],
+    "title": "Bitrefill API",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}
