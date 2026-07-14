@@ -202,4 +202,4 @@ Full Bitrefill API docs: [docs.bitrefill.com/docs](https://docs.bitrefill.com/do
 
 ## License
 
-MIT
+All rights reserved. See [LICENSE](LICENSE).
