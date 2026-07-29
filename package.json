@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Bitrefill plugins for SperaxOS — Default, Markdown, Standalone, and OpenAPI types",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirholas/bitrefill-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nirholas/bitrefill-plugin/issues"
+  },
   "scripts": {
     "dev": "vercel dev",
     "build": "bun scripts/build.ts",

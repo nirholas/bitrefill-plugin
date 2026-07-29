@@ -176,13 +176,20 @@ Copy these files into [nirholas/plugin.delivery](https://github.com/nirholas/plu
 
 ---
 
-## Adding agent to defi-agents
+## Wiring an agent to these plugins
 
-Copy from `bitrefill-agent/`:
-- `src/bitrefill-shopping-assistant.json` → `src/`
-- `locales/bitrefill-shopping-assistant.en-US.json` → `locales/`
+This repository ships the four plugins only — no agent definition is included here.
+To let an agent use them, add the plugin identifier to the agent's `plugins` array in
+whichever agent repository the agent lives in:
 
-The agent references `"plugins": ["sperax-bitrefill"]` to enable the Default plugin.
+```json
+{
+  "plugins": ["sperax-bitrefill"]
+}
+```
+
+Use `bitrefill-catalog`, `bitrefill-store`, or `bitrefill-openapi` instead of (or
+alongside) `sperax-bitrefill` depending on which plugin type the agent should call.
 
 ---
 
