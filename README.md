@@ -224,3 +224,10 @@ Full Bitrefill API docs: [docs.bitrefill.com/docs](https://docs.bitrefill.com/do
 ## License
 
 All rights reserved. See [LICENSE](LICENSE).
+
+## Documentation
+
+Full documentation site: **https://nirholas.github.io/bitrefill-plugin/**
+
+- [Getting started](docs/getting-started.md) covers install and first run.
+- [Examples](docs/examples.md) has copy-paste snippets.
