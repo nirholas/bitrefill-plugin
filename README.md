@@ -54,6 +54,12 @@ locales/
   bitrefill-store.en-US.json
   bitrefill-openapi.en-US.json
 
+scripts/
+  build.ts                    ← Generates public/index.json from src/*.json
+
+public/
+  index.json                  ← Generated plugin registry (bun run build)
+
 vercel.json                   ← Rewrites + CORS headers
 tsconfig.json                 ← TypeScript config (edge-compatible)
 ```
@@ -131,7 +137,9 @@ Auto-generated from a full OpenAPI 3.0 spec — no custom handlers beyond spec s
 | Batches | `POST /brgc-batches`, `GET /brgc-batches`, `GET /brgc-batches/{id}` |
 | Affiliate | `GET /commissions` |
 
-Spec served at: `https://plugin.delivery/api/bitrefill-openapi/spec` (edge-safe, inlined — no dynamic imports)
+Spec handler: [`api/bitrefill-openapi/spec.ts`](api/bitrefill-openapi/spec.ts) (edge-safe, inlined, no dynamic imports). It is served at `/api/bitrefill-openapi/spec` on whichever host runs this project.
+
+> The previous public host, `plugin.delivery`, currently returns HTTP 402 while hosting is being migrated. Until the new host is live, read the spec from the source file above or run the project locally with `bun run dev`.
 
 ---
 
@@ -197,11 +205,17 @@ alongside) `sperax-bitrefill` depending on which plugin type the agent should ca
 
 ```bash
 bun install
+bun run build      # Regenerate public/index.json from src/*.json
 bun run dev        # Vercel local dev server
 bun run format     # Format all JSON files
 bun run lint       # tsc --noEmit type check
 bun run deploy     # Deploy to Vercel production
 ```
+
+`bun run build` is the only build step. It reads every plugin definition in
+`src/` and writes the discovery registry to `public/index.json`. CI runs it on
+every push and fails if the file is not produced, so re-run it whenever you add
+or edit a plugin definition.
 
 ## API Reference
 
